@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.speedometer {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    background-color: #f0f0f0;
+    border: 5px solid #333;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.needle {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    background-color: red;
+    top: 45px;
+    left: 149px;
+    transform-origin: center bottom;
+    transform: rotate(0deg);
+}
+
+input[type="number"] {
+    width: 80px;
+    margin: 10px;
+}
+
+button {
+    background-color: #0074cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
